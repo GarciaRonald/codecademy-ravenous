@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import Business from './components/Business';
 
 function App() {
   return (
-    <h1>Hello from App.jsx</h1>
+    <div>
+      <Business />
+    </div>
   );
 }
 
