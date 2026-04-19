@@ -14,20 +14,27 @@ function Business() {
     return (
         <div>
             <div>
-                <img src="#" alt="Empty Image" />
+                <img
+                    src={sampleBus.imgSrc}
+                    alt={sampleBus.name}
+                    height="200"
+                />
             </div>
+
             <div>
-                <h2>Name</h2>
+                <h2>{sampleBus.name}</h2>
             </div>
+
             <div>
                 <div>
-                    <p>Address</p>
-                    <p>City State Zip</p>
+                    <p>{sampleBus.address}</p>
+                    <p>{sampleBus.city} {sampleBus.state} {sampleBus.zipCode}</p>
                 </div>
+
                 <div>
-                    <p>Category</p>
-                    <p>Rating</p>
-                    <p>Rating Count</p>
+                    <p>{sampleBus.category}</p>
+                    <p>{`${sampleBus.rating} star${sampleBus.rating > 1 && 's'}`}</p>
+                    <p>{`${sampleBus.reviewCount} review${sampleBus.reviewCount === 1 ? '' : 's'}`}</p>
                 </div>
             </div>
         </div>
