@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Business from './components/Business';
+import BusinessList from './components/BusinessList';
 
 function App() {
   return (
     <div>
-      <Business />
+      <BusinessList />
     </div>
   );
 }
