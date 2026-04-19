@@ -1,8 +1,9 @@
 import Business from './Business';
+import '../styles/BusinessList.css';
 
 function BusinessList() {
     return (
-        <div>
+        <div className='businesslist'>
             <Business />
             <Business />
             <Business />
