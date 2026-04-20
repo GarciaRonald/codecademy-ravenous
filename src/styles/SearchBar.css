@@ -1,12 +1,12 @@
 .searchbar-container {
-    height: 300px;
+    height: 350px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
     background: url('https://www.abridged.org/wp-content/uploads/2026/04/DSC06506.jpg');
-    background-position: center;
+    background-position: relative;
     background-size: cover;
 }
 
@@ -27,7 +27,7 @@
     border-radius: 5px;
     width: 350px;
     height: 40px;
-    margin: 0 15px;
+    margin: 3px 15px;
     padding: 0 10px;
     font-size: 0.9rem;
 }
