@@ -1,0 +1,41 @@
+.searchbar-container {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    background: url('https://www.abridged.org/wp-content/uploads/2026/04/DSC06506.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sort button {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 150px;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.input input {
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    margin: 0 15px;
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
+
+.submit button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+}

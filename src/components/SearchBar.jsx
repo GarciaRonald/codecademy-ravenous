@@ -1,18 +1,20 @@
+import '../styles/SearchBar.css';
+
 function SearchBar() {
     return (
-        <div>
-            <div>
-                <button>Best Match</button>
-                <button>Highest Rated</button>
-                <button>Most Reviewed</button>
+        <div className="searchbar-container">
+            <div className='sort'>
+                <button>Best<br />Match</button>
+                <button>Highest<br />Rated</button>
+                <button>Most<br />Reviewed</button>
             </div>
 
-            <div>
+            <div className='input'>
                 <input type="text" placeholder="Search Businesses" />
                 <input type="text" placeholder="Where?" />
             </div>
             
-            <div>
+            <div className='submit'>
                 <button>Let's Go</button>
             </div>
         </div>
