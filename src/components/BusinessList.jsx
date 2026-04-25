@@ -1,19 +1,16 @@
 import Business from './Business';
 import '../styles/BusinessList.css';
 
-function BusinessList() {
+function BusinessList(props) {
+    const busArray = props.businesses.map(bus => {
+        return (
+            <Business />
+        );
+    });
+    
     return (
         <div className='businesslist'>
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
-            <Business />
+            {busArray}
         </div>
     );
 }
