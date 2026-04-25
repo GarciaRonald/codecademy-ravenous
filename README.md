@@ -8,3 +8,5 @@ Ravenous is restaurant recommendation app that uses and showcases the following 
 - HTML, CSS, Javascript
 - React.js
 - React components
+- Component interaction
+- Component props
