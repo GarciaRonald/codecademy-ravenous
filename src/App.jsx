@@ -75,7 +75,7 @@ function App() {
   return (
     <div>
       <SearchBar />
-      <BusinessList />
+      <BusinessList businesses={sampleBus} />
     </div>
   );
 }
